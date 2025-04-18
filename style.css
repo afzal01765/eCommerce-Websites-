@@ -110,3 +110,27 @@ nav{
 
 }
 
+
+@media (max-width: 768px) {
+    .nav-upper {
+        flex-direction: column;
+        gap: 1rem; 
+    }
+
+    .nav-list {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-lower{
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem; 
+    }
+  
+    .nav-lower li{
+      width: 100%;
+    }
+}
