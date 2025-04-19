@@ -28,6 +28,13 @@
     align-items: center;
 
 }
+.flex_space_center{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 html{
 
@@ -168,9 +175,12 @@ nav{
     }
 
     .heddin{
-        
+
         display: none;
 
+    }
+    header{
+        height: 100vh;
     }
 
 
@@ -214,3 +224,50 @@ nav{
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+
+
+
+header {
+    padding: 4rem;
+    height: 80vh;
+    background-image: url(images/AdobeStock_337686234_Preview.jpeg);
+    background-size: cover;        
+
+    background-repeat: no-repeat;              
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;
+
+}
+
+.banner_title{
+
+    font-size: 4rem;
+    color: yellow;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+
+}
+.features {
+    width: 100%;
+
+}
+.feature{
+
+    background-color: var(--secoundary-color);
+    color:white;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: var(--border-radius);
+    flex-direction: column;
+    gap: 1.5rem;
+    flex-direction: column;
+
+}
+.feature-icon{
+    font-size: 3rem;
+}
+
+
+
